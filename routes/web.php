@@ -10,6 +10,6 @@ Route::get('/', function () {
 
 Route::get('customers', function () {
     //call mock api to get customers
-     $response = Http::get('https://65efc415ead08fa78a50e705.mockapi.io/api/customers');
+     $response = Http::get('https://65efc415ead08fa78a50e705.mockapi.io/api/posts');
      return $response->json();
 });
